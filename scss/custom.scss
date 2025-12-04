@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Chocolate+Classical+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+
+// Typography
+// Change font family for base text
+$font-family-base: "Bodoni Moda", serif;
+
+
+// Change font family for headings
+$headings-font-family: "Chocolate Classical Sans";
+
+// Include any default variable overrides here (colors, font sizes, font family, etc..)
+$primary: #FFb0B9;;
+$secondary: #C94268;
+$success: #A4D882;
+$info: #6C4D4B;
+$warning: #FFF689;
+$danger: #E5446D;
+$light: #f6f3ed;;
+$dark: #260C09;;
+
+$body-bg-light: #f2f2f2;
+
+$footer-bg-dark: #181853;
+$footer-text-light-color: #f2f2f2;
+
+
+// Adjust nav link hover color here
+$navbar-bg-dark: #181853;
+$navbar-dark-hover-color: #A04ADD;
+
+
+
+// Change font sizes for h1-h6 using values in assignment
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.441rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Add additional custom code here
+
+// Target .navbar-brand and change font-family to use 'Libre Baskerville'.
+.navbar-nav {
+    font-family: 'Chocolate Classical Sans'; 
+   }
+   .nav-button {
+    font-family: 'Chocolate Classical Sans'; 
+   }
+
+   .hero {
+    height: 800px;
+    background-color: #E4E6DB;
+    background-image: url(/images/Screenshot\ 2025-11-03\ at\ 3.46.06\ PM.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+   
+
+
