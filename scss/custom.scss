@@ -17,7 +17,7 @@ $success: #A4D882;
 $info: #6C4D4B;
 $warning: #FFF689;
 $danger: rgb(229, 68, 109);
-$light: #f6f3ed;;
+$light: rgb(246, 243, 237);;
 $dark: #260C09;
 
 $body-bg-light: #f2f2f2;
@@ -55,7 +55,7 @@ $h6-font-size: 1rem;
    .hero {
     height: 800px;
     background-color: #6C4D4B;
-    background-image: url(/images/hero-image.jpg);
+    background-image: url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-position: cover;
     background-size: cover;
