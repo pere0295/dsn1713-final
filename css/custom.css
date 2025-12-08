@@ -11897,4 +11897,8 @@ textarea.form-control-lg {
   box-shadow: none;
 }
 
+.nav-link:hover {
+  color: #C94268;
+}
+
 /*# sourceMappingURL=custom.css.map */
